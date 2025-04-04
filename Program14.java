@@ -3,17 +3,15 @@ class MyObject {
 
     MyObject() {  
         count++;
+        System.out.println("The total objects created are: " + MyObject.count);  
     }
 }
 
 public class Main {  
     public static void main(String[] args) {  
         MyObject obj1 = new MyObject(); 
-        System.out.println("The total objects created are: " + MyObject.count);  
         MyObject obj2 = new MyObject();  
-        System.out.println("The total objects created are: " + MyObject.count);  
         MyObject obj3 = new MyObject();  
-        System.out.println("The total objects created are: " + MyObject.count);  
     }  
 }
 
