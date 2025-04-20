@@ -7,7 +7,7 @@ class MyObject {
     }
 }
 
-public class Main {  
+class Main {  
     public static void main(String[] args) {  
         MyObject obj1 = new MyObject(); 
         MyObject obj2 = new MyObject();  
