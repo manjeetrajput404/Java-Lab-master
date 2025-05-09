@@ -36,3 +36,7 @@ public class Program17 {
         System.out.println("Multiply: " + Calculator.calculate(10, 2));  // Output: 20
     }
 }
+
+// output
+// Divide: 5
+// Multiply: 20
